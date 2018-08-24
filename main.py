@@ -22,6 +22,7 @@ else:
     texto = "Reconhecimento Falho"
 
 print(texto)
+print(texto)
 #Abre uma janela com os algoritmos da placa
 janela = tkinter.Tk()
 tkinter.Label(janela, text=texto, font=("Helvetica", 50)).pack()
