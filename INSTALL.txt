@@ -1,0 +1,17 @@
+Baixar os o instalor do tesseract desse site 
+https://drive.google.com/file/d/0B8wfhNCJl_S1TWsybG5jTWlvYkU/view
+
+Depois baixar a última versão do Pytesseract
+https://pypi.org/project/pytesseract/
+
+Ver o vídeo abaixo do youbute na qual ensina como fazer a instalação
+https://www.youtube.com/watch?v=qoFgrvYCQOk
+Instalar o tesseract 
+
+executar como adiministrador as linhas comando no CMD
+1-python 
+2-import pytesseract
+
+IMPORTANTE
+Adicionar o caminho do código fonte do tesseract nas variáveis de ambinete do windows
+Path = C:\Program Files (x86)\Tesseract-OCR\ (meu computador no caso)

@@ -1,0 +1,29 @@
+|--DetectVehiclePlate
+|	|--Atributos
+|	|	|--inputImagem[]
+|	|	|--placa[]
+|	|	|--showsteps
+|	|--Métodos
+|	|	|--_ini_(img_path,steps)
+|	|	|--canny(img)
+|	|	|--verifySizes(altura,largura)
+|	|	|--PossiveisPlacas(img_bordas)
+|	|	|--Descide(lista,xo,yo)
+|	|	|--DetectaPlaca()
+--------------------------------------
+
+
+|--Ocr
+|	|--Atributos
+|	|	|--placa[]
+|	|	|--imagemFrase[]
+|	|	|--textPlate[]
+|	|	|--showsteps
+|	|--Métodos
+|	|	|--_ini_(steps)
+|	|	|--x_cord_contour(contours)
+|	|	|--verificaChar(altura,largura)
+|	|	|--removerChars(frase)
+|	|	|--segmentaCaracter()
+|	|	|--reconhecimentoOCR(image)
+----------------------------------------
